@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97AD3E5621A688B300C0CE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3E5521A688B300C0CE0D /* AppDelegate.swift */; };
-		97AD3E5821A688B300C0CE0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3E5721A688B300C0CE0D /* ViewController.swift */; };
-		97AD3E5B21A688B300C0CE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AD3E5921A688B300C0CE0D /* Main.storyboard */; };
-		97AD3E5D21A688B300C0CE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AD3E5C21A688B300C0CE0D /* Assets.xcassets */; };
-		97AD3E6021A688B300C0CE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AD3E5E21A688B300C0CE0D /* LaunchScreen.storyboard */; };
-		97AD3E6B21A688B300C0CE0D /* FileManagerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3E6A21A688B300C0CE0D /* FileManagerDemoTests.swift */; };
-		97AD3E7621A688B400C0CE0D /* FileManagerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3E7521A688B400C0CE0D /* FileManagerDemoUITests.swift */; };
+		979DA19F21A7C93F00432346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979DA19E21A7C93F00432346 /* AppDelegate.swift */; };
+		979DA1A121A7C93F00432346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979DA1A021A7C93F00432346 /* ViewController.swift */; };
+		979DA1A421A7C93F00432346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979DA1A221A7C93F00432346 /* Main.storyboard */; };
+		979DA1A621A7C94000432346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979DA1A521A7C94000432346 /* Assets.xcassets */; };
+		979DA1A921A7C94000432346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979DA1A721A7C94000432346 /* LaunchScreen.storyboard */; };
+		979DA1B421A7C94000432346 /* FileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979DA1B321A7C94000432346 /* FileManagerTests.swift */; };
+		979DA1BF21A7C94100432346 /* FileManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979DA1BE21A7C94100432346 /* FileManagerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		97AD3E6721A688B300C0CE0D /* PBXContainerItemProxy */ = {
+		979DA1B021A7C94000432346 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 97AD3E4A21A688B300C0CE0D /* Project object */;
+			containerPortal = 979DA19321A7C93F00432346 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97AD3E5121A688B300C0CE0D;
-			remoteInfo = FileManagerDemo;
+			remoteGlobalIDString = 979DA19A21A7C93F00432346;
+			remoteInfo = FileManager;
 		};
-		97AD3E7221A688B400C0CE0D /* PBXContainerItemProxy */ = {
+		979DA1BB21A7C94100432346 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 97AD3E4A21A688B300C0CE0D /* Project object */;
+			containerPortal = 979DA19321A7C93F00432346 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97AD3E5121A688B300C0CE0D;
-			remoteInfo = FileManagerDemo;
+			remoteGlobalIDString = 979DA19A21A7C93F00432346;
+			remoteInfo = FileManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		97AD3E5221A688B300C0CE0D /* FileManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97AD3E5521A688B300C0CE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97AD3E5721A688B300C0CE0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97AD3E5A21A688B300C0CE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97AD3E5C21A688B300C0CE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97AD3E5F21A688B300C0CE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97AD3E6121A688B300C0CE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97AD3E6621A688B300C0CE0D /* FileManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97AD3E6A21A688B300C0CE0D /* FileManagerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerDemoTests.swift; sourceTree = "<group>"; };
-		97AD3E6C21A688B300C0CE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97AD3E7121A688B400C0CE0D /* FileManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97AD3E7521A688B400C0CE0D /* FileManagerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerDemoUITests.swift; sourceTree = "<group>"; };
-		97AD3E7721A688B400C0CE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979DA19B21A7C93F00432346 /* FileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979DA19E21A7C93F00432346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979DA1A021A7C93F00432346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979DA1A321A7C93F00432346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979DA1A521A7C94000432346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979DA1A821A7C94000432346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979DA1AA21A7C94000432346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979DA1AF21A7C94000432346 /* FileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979DA1B321A7C94000432346 /* FileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerTests.swift; sourceTree = "<group>"; };
+		979DA1B521A7C94000432346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979DA1BA21A7C94100432346 /* FileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979DA1BE21A7C94100432346 /* FileManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerUITests.swift; sourceTree = "<group>"; };
+		979DA1C021A7C94100432346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97AD3E4F21A688B300C0CE0D /* Frameworks */ = {
+		979DA19821A7C93F00432346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AD3E6321A688B300C0CE0D /* Frameworks */ = {
+		979DA1AC21A7C94000432346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AD3E6E21A688B400C0CE0D /* Frameworks */ = {
+		979DA1B721A7C94100432346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97AD3E4921A688B300C0CE0D = {
+		979DA19221A7C93F00432346 = {
 			isa = PBXGroup;
 			children = (
-				97AD3E5421A688B300C0CE0D /* FileManagerDemo */,
-				97AD3E6921A688B300C0CE0D /* FileManagerDemoTests */,
-				97AD3E7421A688B400C0CE0D /* FileManagerDemoUITests */,
-				97AD3E5321A688B300C0CE0D /* Products */,
+				979DA19D21A7C93F00432346 /* FileManager */,
+				979DA1B221A7C94000432346 /* FileManagerTests */,
+				979DA1BD21A7C94100432346 /* FileManagerUITests */,
+				979DA19C21A7C93F00432346 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		97AD3E5321A688B300C0CE0D /* Products */ = {
+		979DA19C21A7C93F00432346 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97AD3E5221A688B300C0CE0D /* FileManagerDemo.app */,
-				97AD3E6621A688B300C0CE0D /* FileManagerDemoTests.xctest */,
-				97AD3E7121A688B400C0CE0D /* FileManagerDemoUITests.xctest */,
+				979DA19B21A7C93F00432346 /* FileManager.app */,
+				979DA1AF21A7C94000432346 /* FileManagerTests.xctest */,
+				979DA1BA21A7C94100432346 /* FileManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97AD3E5421A688B300C0CE0D /* FileManagerDemo */ = {
+		979DA19D21A7C93F00432346 /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
-				97AD3E5521A688B300C0CE0D /* AppDelegate.swift */,
-				97AD3E5721A688B300C0CE0D /* ViewController.swift */,
-				97AD3E5921A688B300C0CE0D /* Main.storyboard */,
-				97AD3E5C21A688B300C0CE0D /* Assets.xcassets */,
-				97AD3E5E21A688B300C0CE0D /* LaunchScreen.storyboard */,
-				97AD3E6121A688B300C0CE0D /* Info.plist */,
+				979DA19E21A7C93F00432346 /* AppDelegate.swift */,
+				979DA1A021A7C93F00432346 /* ViewController.swift */,
+				979DA1A221A7C93F00432346 /* Main.storyboard */,
+				979DA1A521A7C94000432346 /* Assets.xcassets */,
+				979DA1A721A7C94000432346 /* LaunchScreen.storyboard */,
+				979DA1AA21A7C94000432346 /* Info.plist */,
 			);
-			path = FileManagerDemo;
+			path = FileManager;
 			sourceTree = "<group>";
 		};
-		97AD3E6921A688B300C0CE0D /* FileManagerDemoTests */ = {
+		979DA1B221A7C94000432346 /* FileManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				97AD3E6A21A688B300C0CE0D /* FileManagerDemoTests.swift */,
-				97AD3E6C21A688B300C0CE0D /* Info.plist */,
+				979DA1B321A7C94000432346 /* FileManagerTests.swift */,
+				979DA1B521A7C94000432346 /* Info.plist */,
 			);
-			path = FileManagerDemoTests;
+			path = FileManagerTests;
 			sourceTree = "<group>";
 		};
-		97AD3E7421A688B400C0CE0D /* FileManagerDemoUITests */ = {
+		979DA1BD21A7C94100432346 /* FileManagerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				97AD3E7521A688B400C0CE0D /* FileManagerDemoUITests.swift */,
-				97AD3E7721A688B400C0CE0D /* Info.plist */,
+				979DA1BE21A7C94100432346 /* FileManagerUITests.swift */,
+				979DA1C021A7C94100432346 /* Info.plist */,
 			);
-			path = FileManagerDemoUITests;
+			path = FileManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97AD3E5121A688B300C0CE0D /* FileManagerDemo */ = {
+		979DA19A21A7C93F00432346 /* FileManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97AD3E7A21A688B400C0CE0D /* Build configuration list for PBXNativeTarget "FileManagerDemo" */;
+			buildConfigurationList = 979DA1C321A7C94100432346 /* Build configuration list for PBXNativeTarget "FileManager" */;
 			buildPhases = (
-				97AD3E4E21A688B300C0CE0D /* Sources */,
-				97AD3E4F21A688B300C0CE0D /* Frameworks */,
-				97AD3E5021A688B300C0CE0D /* Resources */,
+				979DA19721A7C93F00432346 /* Sources */,
+				979DA19821A7C93F00432346 /* Frameworks */,
+				979DA19921A7C93F00432346 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FileManagerDemo;
-			productName = FileManagerDemo;
-			productReference = 97AD3E5221A688B300C0CE0D /* FileManagerDemo.app */;
+			name = FileManager;
+			productName = FileManager;
+			productReference = 979DA19B21A7C93F00432346 /* FileManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97AD3E6521A688B300C0CE0D /* FileManagerDemoTests */ = {
+		979DA1AE21A7C94000432346 /* FileManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97AD3E7D21A688B400C0CE0D /* Build configuration list for PBXNativeTarget "FileManagerDemoTests" */;
+			buildConfigurationList = 979DA1C621A7C94100432346 /* Build configuration list for PBXNativeTarget "FileManagerTests" */;
 			buildPhases = (
-				97AD3E6221A688B300C0CE0D /* Sources */,
-				97AD3E6321A688B300C0CE0D /* Frameworks */,
-				97AD3E6421A688B300C0CE0D /* Resources */,
+				979DA1AB21A7C94000432346 /* Sources */,
+				979DA1AC21A7C94000432346 /* Frameworks */,
+				979DA1AD21A7C94000432346 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				97AD3E6821A688B300C0CE0D /* PBXTargetDependency */,
+				979DA1B121A7C94000432346 /* PBXTargetDependency */,
 			);
-			name = FileManagerDemoTests;
-			productName = FileManagerDemoTests;
-			productReference = 97AD3E6621A688B300C0CE0D /* FileManagerDemoTests.xctest */;
+			name = FileManagerTests;
+			productName = FileManagerTests;
+			productReference = 979DA1AF21A7C94000432346 /* FileManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		97AD3E7021A688B400C0CE0D /* FileManagerDemoUITests */ = {
+		979DA1B921A7C94100432346 /* FileManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97AD3E8021A688B400C0CE0D /* Build configuration list for PBXNativeTarget "FileManagerDemoUITests" */;
+			buildConfigurationList = 979DA1C921A7C94100432346 /* Build configuration list for PBXNativeTarget "FileManagerUITests" */;
 			buildPhases = (
-				97AD3E6D21A688B400C0CE0D /* Sources */,
-				97AD3E6E21A688B400C0CE0D /* Frameworks */,
-				97AD3E6F21A688B400C0CE0D /* Resources */,
+				979DA1B621A7C94100432346 /* Sources */,
+				979DA1B721A7C94100432346 /* Frameworks */,
+				979DA1B821A7C94100432346 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				97AD3E7321A688B400C0CE0D /* PBXTargetDependency */,
+				979DA1BC21A7C94100432346 /* PBXTargetDependency */,
 			);
-			name = FileManagerDemoUITests;
-			productName = FileManagerDemoUITests;
-			productReference = 97AD3E7121A688B400C0CE0D /* FileManagerDemoUITests.xctest */;
+			name = FileManagerUITests;
+			productName = FileManagerUITests;
+			productReference = 979DA1BA21A7C94100432346 /* FileManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		97AD3E4A21A688B300C0CE0D /* Project object */ = {
+		979DA19321A7C93F00432346 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = WH;
 				TargetAttributes = {
-					97AD3E5121A688B300C0CE0D = {
+					979DA19A21A7C93F00432346 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					97AD3E6521A688B300C0CE0D = {
+					979DA1AE21A7C94000432346 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 97AD3E5121A688B300C0CE0D;
+						TestTargetID = 979DA19A21A7C93F00432346;
 					};
-					97AD3E7021A688B400C0CE0D = {
+					979DA1B921A7C94100432346 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 97AD3E5121A688B300C0CE0D;
+						TestTargetID = 979DA19A21A7C93F00432346;
 					};
 				};
 			};
-			buildConfigurationList = 97AD3E4D21A688B300C0CE0D /* Build configuration list for PBXProject "FileManagerDemo" */;
+			buildConfigurationList = 979DA19621A7C93F00432346 /* Build configuration list for PBXProject "FileManager" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 97AD3E4921A688B300C0CE0D;
-			productRefGroup = 97AD3E5321A688B300C0CE0D /* Products */;
+			mainGroup = 979DA19221A7C93F00432346;
+			productRefGroup = 979DA19C21A7C93F00432346 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97AD3E5121A688B300C0CE0D /* FileManagerDemo */,
-				97AD3E6521A688B300C0CE0D /* FileManagerDemoTests */,
-				97AD3E7021A688B400C0CE0D /* FileManagerDemoUITests */,
+				979DA19A21A7C93F00432346 /* FileManager */,
+				979DA1AE21A7C94000432346 /* FileManagerTests */,
+				979DA1B921A7C94100432346 /* FileManagerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		97AD3E5021A688B300C0CE0D /* Resources */ = {
+		979DA19921A7C93F00432346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97AD3E6021A688B300C0CE0D /* LaunchScreen.storyboard in Resources */,
-				97AD3E5D21A688B300C0CE0D /* Assets.xcassets in Resources */,
-				97AD3E5B21A688B300C0CE0D /* Main.storyboard in Resources */,
+				979DA1A921A7C94000432346 /* LaunchScreen.storyboard in Resources */,
+				979DA1A621A7C94000432346 /* Assets.xcassets in Resources */,
+				979DA1A421A7C93F00432346 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AD3E6421A688B300C0CE0D /* Resources */ = {
+		979DA1AD21A7C94000432346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AD3E6F21A688B400C0CE0D /* Resources */ = {
+		979DA1B821A7C94100432346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		97AD3E4E21A688B300C0CE0D /* Sources */ = {
+		979DA19721A7C93F00432346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97AD3E5821A688B300C0CE0D /* ViewController.swift in Sources */,
-				97AD3E5621A688B300C0CE0D /* AppDelegate.swift in Sources */,
+				979DA1A121A7C93F00432346 /* ViewController.swift in Sources */,
+				979DA19F21A7C93F00432346 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AD3E6221A688B300C0CE0D /* Sources */ = {
+		979DA1AB21A7C94000432346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97AD3E6B21A688B300C0CE0D /* FileManagerDemoTests.swift in Sources */,
+				979DA1B421A7C94000432346 /* FileManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AD3E6D21A688B400C0CE0D /* Sources */ = {
+		979DA1B621A7C94100432346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97AD3E7621A688B400C0CE0D /* FileManagerDemoUITests.swift in Sources */,
+				979DA1BF21A7C94100432346 /* FileManagerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		97AD3E6821A688B300C0CE0D /* PBXTargetDependency */ = {
+		979DA1B121A7C94000432346 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97AD3E5121A688B300C0CE0D /* FileManagerDemo */;
-			targetProxy = 97AD3E6721A688B300C0CE0D /* PBXContainerItemProxy */;
+			target = 979DA19A21A7C93F00432346 /* FileManager */;
+			targetProxy = 979DA1B021A7C94000432346 /* PBXContainerItemProxy */;
 		};
-		97AD3E7321A688B400C0CE0D /* PBXTargetDependency */ = {
+		979DA1BC21A7C94100432346 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97AD3E5121A688B300C0CE0D /* FileManagerDemo */;
-			targetProxy = 97AD3E7221A688B400C0CE0D /* PBXContainerItemProxy */;
+			target = 979DA19A21A7C93F00432346 /* FileManager */;
+			targetProxy = 979DA1BB21A7C94100432346 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		97AD3E5921A688B300C0CE0D /* Main.storyboard */ = {
+		979DA1A221A7C93F00432346 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97AD3E5A21A688B300C0CE0D /* Base */,
+				979DA1A321A7C93F00432346 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		97AD3E5E21A688B300C0CE0D /* LaunchScreen.storyboard */ = {
+		979DA1A721A7C94000432346 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97AD3E5F21A688B300C0CE0D /* Base */,
+				979DA1A821A7C94000432346 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		97AD3E7821A688B400C0CE0D /* Debug */ = {
+		979DA1C121A7C94100432346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		97AD3E7921A688B400C0CE0D /* Release */ = {
+		979DA1C221A7C94100432346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,164 +428,168 @@
 			};
 			name = Release;
 		};
-		97AD3E7B21A688B400C0CE0D /* Debug */ = {
+		979DA1C421A7C94100432346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P72ZUNZG2W;
-				INFOPLIST_FILE = FileManagerDemo/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FileManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		97AD3E7C21A688B400C0CE0D /* Release */ = {
+		979DA1C521A7C94100432346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P72ZUNZG2W;
-				INFOPLIST_FILE = FileManagerDemo/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FileManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		97AD3E7E21A688B400C0CE0D /* Debug */ = {
+		979DA1C721A7C94100432346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P72ZUNZG2W;
-				INFOPLIST_FILE = FileManagerDemoTests/Info.plist;
+				INFOPLIST_FILE = FileManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManagerDemo.app/FileManagerDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManager.app/FileManager";
 			};
 			name = Debug;
 		};
-		97AD3E7F21A688B400C0CE0D /* Release */ = {
+		979DA1C821A7C94100432346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P72ZUNZG2W;
-				INFOPLIST_FILE = FileManagerDemoTests/Info.plist;
+				INFOPLIST_FILE = FileManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManagerDemo.app/FileManagerDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManager.app/FileManager";
 			};
 			name = Release;
 		};
-		97AD3E8121A688B400C0CE0D /* Debug */ = {
+		979DA1CA21A7C94100432346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P72ZUNZG2W;
-				INFOPLIST_FILE = FileManagerDemoUITests/Info.plist;
+				INFOPLIST_FILE = FileManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FileManagerDemo;
+				TEST_TARGET_NAME = FileManager;
 			};
 			name = Debug;
 		};
-		97AD3E8221A688B400C0CE0D /* Release */ = {
+		979DA1CB21A7C94100432346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P72ZUNZG2W;
-				INFOPLIST_FILE = FileManagerDemoUITests/Info.plist;
+				INFOPLIST_FILE = FileManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = S2G.FileManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FileManagerDemo;
+				TEST_TARGET_NAME = FileManager;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97AD3E4D21A688B300C0CE0D /* Build configuration list for PBXProject "FileManagerDemo" */ = {
+		979DA19621A7C93F00432346 /* Build configuration list for PBXProject "FileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97AD3E7821A688B400C0CE0D /* Debug */,
-				97AD3E7921A688B400C0CE0D /* Release */,
+				979DA1C121A7C94100432346 /* Debug */,
+				979DA1C221A7C94100432346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97AD3E7A21A688B400C0CE0D /* Build configuration list for PBXNativeTarget "FileManagerDemo" */ = {
+		979DA1C321A7C94100432346 /* Build configuration list for PBXNativeTarget "FileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97AD3E7B21A688B400C0CE0D /* Debug */,
-				97AD3E7C21A688B400C0CE0D /* Release */,
+				979DA1C421A7C94100432346 /* Debug */,
+				979DA1C521A7C94100432346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97AD3E7D21A688B400C0CE0D /* Build configuration list for PBXNativeTarget "FileManagerDemoTests" */ = {
+		979DA1C621A7C94100432346 /* Build configuration list for PBXNativeTarget "FileManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97AD3E7E21A688B400C0CE0D /* Debug */,
-				97AD3E7F21A688B400C0CE0D /* Release */,
+				979DA1C721A7C94100432346 /* Debug */,
+				979DA1C821A7C94100432346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97AD3E8021A688B400C0CE0D /* Build configuration list for PBXNativeTarget "FileManagerDemoUITests" */ = {
+		979DA1C921A7C94100432346 /* Build configuration list for PBXNativeTarget "FileManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97AD3E8121A688B400C0CE0D /* Debug */,
-				97AD3E8221A688B400C0CE0D /* Release */,
+				979DA1CA21A7C94100432346 /* Debug */,
+				979DA1CB21A7C94100432346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 97AD3E4A21A688B300C0CE0D /* Project object */;
+	rootObject = 979DA19321A7C93F00432346 /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  FileManagerDemoUITests.swift
-//  FileManagerDemoUITests
+//  FileManagerUITests.swift
+//  FileManagerUITests
 //
-//  Created by share2glory on 2018/11/22.
+//  Created by share2glory on 2018/11/23.
 //  Copyright © 2018年 WH. All rights reserved.
 //
 
 import XCTest
 
-class FileManagerDemoUITests: XCTestCase {
+class FileManagerUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
